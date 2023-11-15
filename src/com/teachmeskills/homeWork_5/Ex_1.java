@@ -30,15 +30,12 @@ public class Ex_1 {
                 }
             }
         }
-        //display each row of the array
-        System.out.println(Arrays.deepToString(array[0]));
-        System.out.println(Arrays.deepToString(array[1]));
-        System.out.println(Arrays.deepToString(array[2]));
-        System.out.println(Arrays.deepToString(array[3]));
-        System.out.println(Arrays.deepToString(array[4]));
-        System.out.println(Arrays.deepToString(array[5]));
-        System.out.println(Arrays.deepToString(array[6]));
-        System.out.println(Arrays.deepToString(array[7]));
-
+        //create a loop for each row of a two-dimensional array,
+        // in which each row becomes a one-dimensional array and is displayed on the screen
+        for (int i = 0; i < array.length; i++) {
+            String[] array2 = array[i];
+            System.out.print(Arrays.toString(array2));
+            System.out.println();
+        }
     }
 }
