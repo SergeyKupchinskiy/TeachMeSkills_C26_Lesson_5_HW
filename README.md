@@ -1,4 +1,5 @@
 # TeachMeSkills_C26_Lesson_5_HW
+This repository was created for the main home task.
 
 Main quest
 
@@ -13,11 +14,3 @@ Create a two-dimensional 8x8 array of Strings. Using loops to set
 cycle elements have the values ​​B(Black) or W(White). Result of work
 programs:
 
-W B W B W B W B
-B W B W B W B W
-W B W B W B W B
-B W B W B W B W
-W B W B W B W B
-B W B W B W B W
-W B W B W B W B
-B W B W B W B W
