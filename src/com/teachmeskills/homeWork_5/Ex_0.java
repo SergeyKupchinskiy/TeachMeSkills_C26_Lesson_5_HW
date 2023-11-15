@@ -24,10 +24,12 @@ public class Ex_0 {
             for (int j=0; j< array[i].length; j++){
                 for (int k=0; k< array[i][j].length; k++){
                     array[i][j][k] += a;
-                    System.out.println(array[i][j][k]);
+
 
                 }
             }
         }
+        System.out.println(Arrays.deepToString(array));
+        System.out.println();
     }
 }
