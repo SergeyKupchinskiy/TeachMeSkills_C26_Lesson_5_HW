@@ -23,14 +23,9 @@ public class Ex_1 {
         //create a loop that checks the parity of the index of array elements
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
-                if (i % 2 != 0 && j % 2 == 0) {
-                    array[i][j] = "B";
-                } else if (i % 2 != 0) {
+                if ((i+j)%2 == 0) {
                     array[i][j] = "W";
-                }
-                if (i % 2 == 0 && j % 2 == 0) {
-                    array[i][j] = "W";
-                } else if (i % 2 == 0) {
+                } else {
                     array[i][j] = "B";
                 }
             }
